@@ -1,0 +1,118 @@
+ros-rolling-slg-msgs (3.9.1-1bookworm) bookworm; urgency=high
+
+  * Update to use modern CMake idioms.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Tue, 30 Jul 2024 22:00:00 -0000
+
+ros-rolling-slg-msgs (3.9.0-1bookworm) bookworm; urgency=high
+
+  * Improve formatting.
+  * Added testing.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Wed, 28 Feb 2024 23:00:00 -0000
+
+ros-rolling-slg-msgs (3.8.0-1bookworm) bookworm; urgency=high
+
+  * Prepare for humble release.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Mon, 24 Apr 2023 22:00:00 -0000
+
+ros-rolling-slg-msgs (3.7.0-1bookworm) bookworm; urgency=high
+
+  * Added get_points function.
+  * Fix add point.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Thu, 12 Jan 2023 23:00:00 -0000
+
+ros-rolling-slg-msgs (3.6.0-1bookworm) bookworm; urgency=high
+
+  * A polygon can be created from a vector of points.
+  * Added checks for closed polygon.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Tue, 31 Oct 2023 23:00:00 -0000
+
+ros-rolling-slg-msgs (3.5.1-1bookworm) bookworm; urgency=high
+
+  * Fix install in CMakeLists.txt
+  * Fix slg_msgs in segment2D.hpp
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Mon, 14 Nov 2022 23:00:00 -0000
+
+ros-rolling-slg-msgs (3.5.0-1bookworm) bookworm; urgency=high
+
+  * Delete unused SegmentStamped message.
+  * Added implicit conversions.
+  * Update syntax.
+  * Remove old conversions.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Thu, 16 Jun 2022 22:00:00 -0000
+
+ros-rolling-slg-msgs (3.2.1-1bookworm) bookworm; urgency=high
+
+  * Added copy constructor in segment2D.
+  * Fix some linter errors.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Fri, 30 Sep 2022 22:00:00 -0000
+
+ros-rolling-slg-msgs (3.2.0-1bookworm) bookworm; urgency=high
+
+  * Added ability to create NaN point.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Fri, 30 Sep 2022 22:00:00 -0000
+
+ros-rolling-slg-msgs (3.1.0-1bookworm) bookworm; urgency=high
+
+  * Added string enums.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Wed, 15 Dec 2021 23:00:00 -0000
+
+ros-rolling-slg-msgs (3.0.0-1bookworm) bookworm; urgency=high
+
+  * Using slg namespace for Point2D, Segment2D and polygon.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Tue, 14 Dec 2021 23:00:00 -0000
+
+ros-rolling-slg-msgs (2.1.0-1bookworm) bookworm; urgency=high
+
+  * Adding conversion for polygon to geometry_msgs.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Tue, 14 Dec 2021 23:00:00 -0000
+
+ros-rolling-slg-msgs (2.0.0-1bookworm) bookworm; urgency=high
+
+  * Rename internal message field to comply with ROS standard.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Sun, 12 Dec 2021 23:00:00 -0000
+
+ros-rolling-slg-msgs (1.1.0-1bookworm) bookworm; urgency=high
+
+  * Adding conversion for Point2D to geometry_msgs.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Sun, 12 Dec 2021 23:00:00 -0000
+
+ros-rolling-slg-msgs (1.0.3-1bookworm) bookworm; urgency=high
+
+  * Now using slg namespace.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Tue, 20 Jul 2021 22:00:00 -0000
+
+ros-rolling-slg-msgs (1.0.2-1bookworm) bookworm; urgency=high
+
+  * Added segment2D to PCL conversion.
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Sun, 18 Jul 2021 22:00:00 -0000
+
+ros-rolling-slg-msgs (1.0.0-1bookworm) bookworm; urgency=high
+
+  * Initial release.
+  * Create README.md.
+  * Create CHANGELOG.rst.
+  * Create LICENSE.
+  * Added Point2D, Segment2D and Polygon classes.
+  * Added Segment.msg, SegmentStamped.msg and SegmentArray.msg messages.
+  * Added conversions (.h and .cpp files).
+  * Contributors: Alberto Tudela
+
+ -- Alberto Tudela <ajtudela@gmail.com>  Thu, 15 Jul 2021 22:00:00 -0000
+
+
