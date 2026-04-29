@@ -104,4 +104,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/ajtudela/slg_msgs.git
-    version: :{auto}
+    version: 3.9.1
+    version_saved: :{auto}
